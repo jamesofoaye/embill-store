@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/nav'
 import Footer from '../components/footer'
+import React from "react";
 
 const details = {
     title: "Satinique Color Repair Shampoo - 750mL",
@@ -34,6 +35,25 @@ export default function repair_shampoo_750mL() {
                          src="https://ct.pinterest.com/v3/?event=init&tid=2613497291407&pd[em]=<hashed_email_address>&noscript=1" />
                 </noscript>
                 <!-- end Pinterest Tag -->
+                <!-- checkout tracking -->
+                <script>
+                    pintrk('track', 'checkout', {
+                    value: 100,
+                    order_quantity: 1,
+                    currency: 'USD'
+                });
+                </script>
+                <!-- add to cart tracking -->
+                <script>
+                    pintrk('track', 'addtocart', {
+                    value: 100,
+                    order_quantity: 1,
+                    currency: 'USD'
+                });
+                </script>
+                <script>
+                    pintrk('track', 'pagevisit');
+                </script>
             </Head>
 
             <main>
