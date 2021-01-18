@@ -19,7 +19,6 @@ export default function women_pack() {
                 <link rel="preconnect" href="https://app.snipcart.com" />
                 <link rel="preconnect" href="https://cdn.snipcart.com" />
                 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
-                <!-- Pinterest Tag -->
                 <script>
                     !function(e){if(!window.pintrk){window.pintrk = function () {
                     window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
@@ -34,8 +33,7 @@ export default function women_pack() {
                     <img height="1" width="1" style="display:none;" alt=""
                          src="https://ct.pinterest.com/v3/?event=init&tid=2613497291407&pd[em]=<hashed_email_address>&noscript=1" />
                 </noscript>
-                <!-- end Pinterest Tag -->
-                <!-- checkout tracking -->
+
                 <script>
                     pintrk('track', 'checkout', {
                     value: 100,
@@ -43,7 +41,7 @@ export default function women_pack() {
                     currency: 'USD'
                 });
                 </script>
-                <!-- add to cart tracking -->
+
                 <script>
                     pintrk('track', 'addtocart', {
                     value: 100,
