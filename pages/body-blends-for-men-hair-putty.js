@@ -19,39 +19,6 @@ export default function men_hair_putty() {
                 <link rel="preconnect" href="https://app.snipcart.com" />
                 <link rel="preconnect" href="https://cdn.snipcart.com" />
                 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
-                <script>
-                    !function(e){if(!window.pintrk){window.pintrk = function () {
-                    window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
-                    n=window.pintrk;n.queue=[],n.version="3.0";var
-                    t=document.createElement("script");t.async=!0,t.src=e;var
-                    r=document.getElementsByTagName("script")[0];
-                    r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
-                    pintrk('load', '2613497291407', {em: '<user_email_address>'});
-                    pintrk('page');
-                </script>
-                <noscript>
-                    <img height="1" width="1" style="display:none;" alt=""
-                         src="https://ct.pinterest.com/v3/?event=init&tid=2613497291407&pd[em]=<hashed_email_address>&noscript=1" />
-                </noscript>
-
-                <script>
-                    pintrk('track', 'checkout', {
-                    value: 100,
-                    order_quantity: 1,
-                    currency: 'USD'
-                });
-                </script>
-
-                <script>
-                    pintrk('track', 'addtocart', {
-                    value: 100,
-                    order_quantity: 1,
-                    currency: 'USD'
-                });
-                </script>
-                <script>
-                    pintrk('track', 'pagevisit');
-                </script>
             </Head>
 
             <main>
