@@ -38,8 +38,10 @@ export default function Home() {
               pintrk('load', '2613497291407', {em: '<user_email_address>'});
               pintrk('page');
           </script>
+  <script>
               <img height="1" width="1" style="display:none;" alt=""
                    src="https://ct.pinterest.com/v3/?event=init&tid=2613497291407&pd[em]=<hashed_email_address>&noscript=1" />
+                     </script>
           <!-- end Pinterest Tag -->
           <!-- checkout tracking -->
           <script>
