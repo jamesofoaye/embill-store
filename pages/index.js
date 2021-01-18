@@ -27,8 +27,23 @@ export default function Home() {
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
           crossOrigin="anonymous"
         />
-          
-          <script>
+      </Head>
+
+      <main>
+        <Navbar />
+        <Carousel />
+        <Bath_And_Body_Care />
+        <Dish_And_Laundry />
+        <Fragrance />
+        <Vitamins_And_Supplements />
+        <Hair_Care />
+        <Oral_Care />
+        <Other_Products />
+        <Skin_And_Make_Up />
+        <Footer />
+      </main>
+      <script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
+    <script>
               !function(e){if(!window.pintrk){window.pintrk = function () {
               window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
               n=window.pintrk;n.queue=[],n.version="3.0";var
@@ -62,22 +77,6 @@ export default function Home() {
           <script>
               pintrk('track', 'pagevisit');
           </script>
-      </Head>
-
-      <main>
-        <Navbar />
-        <Carousel />
-        <Bath_And_Body_Care />
-        <Dish_And_Laundry />
-        <Fragrance />
-        <Vitamins_And_Supplements />
-        <Hair_Care />
-        <Oral_Care />
-        <Other_Products />
-        <Skin_And_Make_Up />
-        <Footer />
-      </main>
-      <script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
       <div
         id="snipcart"
         data-config-add-product-behavior="none"
