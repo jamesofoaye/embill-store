@@ -27,7 +27,7 @@ export default function Home() {
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
           crossOrigin="anonymous"
         />
-          <!-- Pinterest Tag -->
+          
           <script>
               !function(e){if(!window.pintrk){window.pintrk = function () {
               window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
@@ -38,12 +38,12 @@ export default function Home() {
               pintrk('load', '2613497291407', {em: '<user_email_address>'});
               pintrk('page');
           </script>
-  <script>
+  <noscript>
               <img height="1" width="1" style="display:none;" alt=""
                    src="https://ct.pinterest.com/v3/?event=init&tid=2613497291407&pd[em]=<hashed_email_address>&noscript=1" />
-                     </script>
-          <!-- end Pinterest Tag -->
-          <!-- checkout tracking -->
+                     </noscript>
+          
+
           <script>
               pintrk('track', 'checkout', {
               value: 100,
@@ -51,7 +51,7 @@ export default function Home() {
               currency: 'USD'
           });
           </script>
-          <!-- add to cart tracking -->
+  
           <script>
               pintrk('track', 'addtocart', {
               value: 100,
