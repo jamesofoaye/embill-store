@@ -47,7 +47,7 @@ export default function Home() {
         id="snipcart"
         data-config-add-product-behavior="none"
         data-config-modal-style="side"
-        data-api-key="NGNhY2MzOTEtYzdiMS00ODk0LWI5NzMtNTgyMjFiZGFlZmVhNjM3MzYwNjg4OTAxNTYxMDAy"
+        data-api-key="Zjc5Mzk2MmItMDgxMS00ZmMzLThhNzItNGZmZDAyY2Y1YjAxNjM3MzYwNjg4OTAxNTYxMDAy"
         hidden>
       </div>
     </div>
