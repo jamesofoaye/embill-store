@@ -14,7 +14,7 @@
     "autoprefixer": "^10.1.0",
     "framer-motion": "^3.1.4",
     "next": "10.0.4",
-    "postcss": "^8.2.1",
+    "postcss": "^8.2.10",
     "react": "17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "17.0.1",
